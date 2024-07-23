@@ -1,0 +1,257 @@
+/* styles.css */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    justify-content: center;
+}
+  
+.journal-container {
+    width: 100%;
+    max-width: 380px;
+    margin: 20px;
+}
+
+.div-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.searchinput-div {
+    width: 80%;
+    background-color: #e7e7e7;
+}
+  
+.search-input {
+    width: 40%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    flex: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchicon {
+    padding: 5px;
+    margin-right: 5px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchinput-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.btnwrite {
+    border: none;
+    background-color:  rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 7px;
+    color: #414141;
+}
+  
+.journal-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+ .journal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+}
+  
+.user-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-icon2 {
+    font-size: 20px;
+}
+
+.user-icon2>svg {
+    width: 30px;
+    margin-bottom: 2px;
+}
+  
+.user-icon {
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+.user-date {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+  
+.post-date {
+    font-size: 0.9rem;
+    color: #666;
+}
+  
+.journal-content {
+    margin-bottom: 10px;
+}
+  
+.journal-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.journal-action {
+    display: flex;
+    align-items: center;
+    background-color: #e7e7e7;
+    width: 25%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+  
+.journal-action .journalicon {
+    margin-right: 5px !important; 
+    font-size: 18px !important;
+    width: 40px !important;
+    height: 18px !important;
+    color: #212529 !important;
+}
+
+.comments-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+.comment-item {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px 15px 15px 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 30px;
+}
+
+.comment-user {
+    font-weight: bold;
+}
+
+.comment-date {
+        font-size: 0.8rem;
+        color: #666;
+}
+
+.comment-content {
+    margin-top: 5px;
+}
+
+.comment-content p {
+    margin: 0px;
+}
+
+.writecomment {
+    border: none;
+    background-color:  rgb(221, 221, 221);
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #414141;
+}
+
+.writecomment>svg {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.comment-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.comment-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.comment-form button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div-write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.writepost {
+    width: 100%;
+    padding: 22px 0;
+    max-width: 400px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .writepost textarea {
+    width: 85%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btnwriteend {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 35%;
+  }
+  
+  .btnwriteend:hover {
+    background-color: #ddd;
+  }
